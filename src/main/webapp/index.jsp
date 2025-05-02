@@ -27,6 +27,8 @@ background-color:#fcf7f7;
 	<div class="container-fluid back-img">
 		<h2 class="text-center text-danger">Book Management System</h2>
 	</div>
+	<% Connection conn=DBConnect.getConn();
+	    out.println(conn);%>
 	
 	<!-- start recent book -->
 	<div class="container" >
